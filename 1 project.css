@@ -1,0 +1,151 @@
+   
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+*{
+    
+    font-family:  Cairo;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+header{
+    display: flex;
+    justify-content: space-around;
+
+align-items: center;
+    background-color: yellow;
+    color: brown;
+    border-top:   solid red 7px; 
+    padding: 0px 100px;
+
+
+
+
+
+}
+header a{
+    color:brown ;
+    text-decoration: none;
+     font-size:18px ;
+     transition:ease 1s ; 
+     margin-right: 7px;
+     
+
+
+}
+header a:hover{
+color: black;
+ font-size: 22px;
+}
+.carsour {
+background-image: url(image/book.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-blend-mode: overlay;
+background-color: rgba(0, 0, o,  4);
+background-position: center;
+    height: 100vh;
+display: flex;
+align-items:center;
+
+
+ }
+ .carsour div{
+    margin-left: 50px;
+    
+ }
+ .carsour span{
+    color: crimson;
+ }
+.carsour a{
+    color: white;
+    text-decoration:  none;
+    background: blue;
+padding: 10px;
+border-radius: 50px ;
+display: inline-block;
+font-size: 18px;
+transition: ease 1s;
+}
+.carsour a:hover{
+font-size: 22px;
+background-color: brown;
+}
+.hassan h2{
+    text-align: center;
+    margin: 30px 0px;
+}
+.hassan .conyainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    padding: 0px 80px;
+
+}
+.hassan .card{
+    margin-right: 20px;
+    box-shadow:  3px 3px 6px 6px #ccc;
+    padding: 10px;
+    width: 20em;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.card h3 {
+    color: crimson;
+    font-weight: 1000;
+} 
+.card p{
+    font-size: 14px;
+
+
+}
+.hassan .card >div{
+    color: blue;
+    font-size: 50px;
+}
+
+.protofilio{
+    background:  rebeccapurple;
+    text-align: center;
+    
+    padding: 30px 100px;
+}
+
+.protofilio h2{
+    color: white;
+    margin-bottom:  20px;
+    border-bottom:solid red ;
+display: inline-block;
+}
+
+
+
+
+
+
+.protofilio .container{
+    display: flex;
+}
+.protofilio .card{
+    background:  white;
+    border: solid;
+    border-radius:20px ;
+    margin-right: 20px;
+
+    padding-bottom: 10px;
+    overflow: hidden;
+ 
+}
+.protofilio button{
+
+    border-radius: 10px;
+    color: white;
+    background: green;
+    padding:   0px 8px ;
+    border: none;
+}
+
+
+
+
+       
